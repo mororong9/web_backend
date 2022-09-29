@@ -34,3 +34,6 @@ def lotto(request):
     }
 
     return render(request,"lotto.html",context)
+    
+def match(request):
+    return render(request,"match.html")
